@@ -2,11 +2,11 @@
 FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
 
 SRC_URI:nanopct6 = " \
-    git://github.com/friendlyarm/kernel-rockchip.git;protocol=https;nobranch=1;branch=nanopi5-v5.10.y_opt; \
+    git://github.com/friendlyarm/kernel-rockchip.git;protocol=https;nobranch=1;branch=nanopi6-v6.1.y; \
     file://cgroups.cfg \
     file://rtw88.cfg \
     file://network-option.cfg \
     file://hid-option.cfg \
 "
-SRCREV:nanopct6 = "83ad55ea02e284cb96b49df7eda89dc6797d9d9c"
 
+SRCREV:nanopct6 = "06f441a65bf4d9dc1d2361fa3cbd182584ea590f"
