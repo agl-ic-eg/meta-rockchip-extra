@@ -7,8 +7,6 @@ SRC_URI:nanopct6 = " \
     file://rtw88.cfg \
     file://network-option.cfg \
     file://hid-option.cfg \
-    file://filesystem-option.cfg \
 "
-SRC_URI:nanopct6:remove = "file://0004-media-rockchip-vicap-fixes-error-of-gcc-compile.patch"
 
 SRCREV:nanopct6 = "06f441a65bf4d9dc1d2361fa3cbd182584ea590f"

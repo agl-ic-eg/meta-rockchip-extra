@@ -6,7 +6,6 @@ SRC_URI:nanopct6 = " \
     file://cgroups.cfg \
     file://rtw88.cfg \
     file://network-option.cfg \
-    file://filesystem-option.cfg \
     file://hid-option.cfg \
 "
 SRCREV:nanopct6 = "83ad55ea02e284cb96b49df7eda89dc6797d9d9c"
