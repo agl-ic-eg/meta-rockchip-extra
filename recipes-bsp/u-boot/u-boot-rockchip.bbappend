@@ -9,3 +9,5 @@ SRC_URI:nanopct6 = " \
     file://0001-Change-default-bootargs.patch \
     file://0002-Disable-android-avb.patch \
 "
+
+PATCHPATH = ""

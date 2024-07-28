@@ -1,4 +1,4 @@
-From 1016d877f0b2d9bee7a871053000eab6158ab51d Mon Sep 17 00:00:00 2001
+From fa6672ad9433a4874f58f4fcc607d4818176eeaa Mon Sep 17 00:00:00 2001
 From: wata2ki <wata2ki@gmail.com>
 Date: Fri, 2 Jun 2023 00:41:36 +0900
 Subject: [PATCH 1/2] Change default bootargs
@@ -9,10 +9,10 @@ Signed-off-by: wata2ki <wata2ki@gmail.com>
  1 file changed, 1 insertion(+), 50 deletions(-)
 
 diff --git a/arch/arm/mach-rockchip/boot_rkimg.c b/arch/arm/mach-rockchip/boot_rkimg.c
-index 5802a97..3eeea26 100644
+index 6ece26500f..cc0ea977cb 100644
 --- a/arch/arm/mach-rockchip/boot_rkimg.c
 +++ b/arch/arm/mach-rockchip/boot_rkimg.c
-@@ -131,7 +131,6 @@ finish:
+@@ -137,7 +137,6 @@ finish:
  static int get_bootdev_type(void)
  {
  	char *boot_media = NULL, *devtype = NULL;
@@ -20,7 +20,7 @@ index 5802a97..3eeea26 100644
  	static int appended;
  	ulong devnum = 0;
  	int type = 0;
-@@ -179,55 +178,7 @@ static int get_bootdev_type(void)
+@@ -185,55 +184,7 @@ static int get_bootdev_type(void)
  	if (!appended && boot_media) {
  		appended = 1;
  
