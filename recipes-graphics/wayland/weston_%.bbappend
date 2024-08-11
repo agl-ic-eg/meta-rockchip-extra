@@ -1,6 +1,7 @@
 FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}:"
 
 SRC_URI:append = " \
+    file://0001-HACK-gl-renderer-Fallback-to-GBM-when-surfaceless-pl.patch \
     file://weston-rockchip.conf \
     "
 
