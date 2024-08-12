@@ -1,8 +1,10 @@
-From 764d7e898d262518ea347b5a9b155451ba3f747a Mon Sep 17 00:00:00 2001
+From d9cd6006e53289299656fc16d208bb2f0143d646 Mon Sep 17 00:00:00 2001
 From: Jeffy Chen <jeffy.chen@rock-chips.com>
 Date: Wed, 20 Dec 2023 09:24:31 +0800
-Subject: [PATCH] HACK: gl-renderer: Fallback to GBM when surfaceless platform
- not supported
+Subject: [PATCH 1/6] HACK: gl-renderer: Fallback to GBM when surfaceless
+ platform not supported
+
+Upstream-Status: Inappropriate [Rockchip specific]
 
 Signed-off-by: Jeffy Chen <jeffy.chen@rock-chips.com>
 ---
