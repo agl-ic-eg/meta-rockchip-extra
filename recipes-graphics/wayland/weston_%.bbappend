@@ -2,8 +2,6 @@ FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}:"
 
 SRC_URI:append = " \
     file://0001-HACK-gl-renderer-Fallback-to-GBM-when-surfaceless-pl.patch \
-    file://0002-backend-drm-don-t-leak-gem_handle_refcnt-in-drm_dest.patch \
-    file://0003-backend-drm-always-create-gem_handle_refcnt-hash-tab.patch \
     file://0004-backend-drm-Cleanup-output-s-disable-head-list-when-.patch \
     file://0005-gl-renderer-Force-using-GL_TEXTURE_EXTERNAL_OES-for-.patch \
     file://0006-backend-drm-Bind-the-Nth-primary-and-cursor-plane-to.patch \
