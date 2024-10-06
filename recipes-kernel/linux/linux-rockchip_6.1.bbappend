@@ -7,6 +7,7 @@ SRC_URI:nanopct6 = " \
     file://rtw88.cfg \
     file://network-option.cfg \
     file://hid-option.cfg \
+    file://rockchip-can.cfg \
 "
 
 SRCREV:nanopct6 = "06f441a65bf4d9dc1d2361fa3cbd182584ea590f"
