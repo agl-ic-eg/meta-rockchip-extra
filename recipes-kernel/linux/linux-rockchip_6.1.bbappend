@@ -10,4 +10,9 @@ SRC_URI:nanopct6 = " \
     file://rockchip-can.cfg \
 "
 
-SRCREV:nanopct6 = "06f441a65bf4d9dc1d2361fa3cbd182584ea590f"
+SRCREV:nanopct6 = "d71ee263033d23540b9225bfa42909dfba09216e"
+
+do_compile:prepend() {
+    mkdir -p ${B}/drivers/gpu/arm/bifrost/
+    cp ${S}/drivers/gpu/arm/bifrost/mali_csffw.bin ${B}/drivers/gpu/arm/bifrost/mali_csffw.bin
+}
